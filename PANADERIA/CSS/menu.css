@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #C96;
+}
+
+body{
+	font-family: Arial;
+}
+/*estilos generales*/
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	line-height: 2.5em;
+}
+
+nav a {
+	color: #ddd;
+	display: block;
+	padding: 0 2.5em;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background: rgba(0,0,0,0.5);
+}
+
+/*primer nivel*/
+
+nav>ul{
+	background-color:#CA6F1E ;
+	width: 100%;
+	overflow: hidden;
+}
+
+nav>ul>li{
+	float: left;
+}
+
+nav>ul>li>ul{
+	position: absolute;
+	display: none;
+}
+
+nav>ul>li:hover ul{
+	display: block;
+}
+
+nav>ul>li>ul>li{
+	background-color: #FFF;
+}
+.NEGRO {
+	color: #000;
+}
+.NEGRO {
+	color: #000;
+}
+.NEGRO {
+	color: #000;
+}
+.NEGRO {
+	color: #080808;
+}
+.NEGRO {
+	color: #080808;
+}
+.NEGRO {
+	color: #080808;
+}
+.NEGRO {
+	color: #080808;
+}
+.COMPAÑEROS h1 b {
+	color: #00F;
+}
+.TRABAJO {
+	color: #0000A0;
+}
+.AZUL {
+	color: #0000A0;
+}
+VERDE {
+	color: #009D00;
+}
+.blanco {
+	color: #FFF;
+}
